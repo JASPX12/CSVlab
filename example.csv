@@ -1,0 +1,8 @@
+fecha,id_pedido,producto,categoria,cantidad,precio_unitario,metodo_pago
+2026-09-10,TX-101,Juego: The Farmer Was Replaced,Videojuegos,1,4.99,Tarjeta
+2026-09-10,TX-102,Monedas: V-Bucks,Microtransacciones,2,8.99,PayPal
+2026-09-11,TX-103,Cable MIDI USB,Accesorios,1,15.50,Tarjeta
+2026-09-11,TX-104,Loop Kit - Urban Beats,Software,1,25.00,Tarjeta
+2026-09-12,TX-105,Juego: The Farmer Was Replaced,Videojuegos,3,4.99,PayPal
+2026-09-12,TX-106,Auriculares Gaming,Accesorios,1,45.00,Tarjeta
+2026-09-13,TX-107,Monedas: V-Bucks,Microtransacciones,1,19.99,Tarjeta
