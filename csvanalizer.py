@@ -1,4 +1,5 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 
 df = pd.read_csv('example.csv')
 
@@ -16,3 +17,12 @@ ventas_paypal = df[df['metodo_pago'] == 'PayPal']
 
 print("\n--- Transacciones pagadas con PayPal ---")
 print(ventas_paypal[['fecha', 'producto', 'ingreso_total']])
+
+ventas_por_categoria.plot(kind='bar', color='coral', edgecolor='black')
+
+plt.title('Ingresos Totales por Categoría')
+plt.xlabel('Categoría')
+plt.ylabel('Dinero Ingresado ($)')
+plt.xticks(rotation=45) # Gira los textos para que se lean mejor
+plt.tight_layout() # Ajusta los márgenes
+plt.show() # Esta línea abre una ventana con tu gráfico
